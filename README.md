@@ -8,3 +8,8 @@ this repo present a multi-language mobile application which consists in managing
 * SQLite
 
 ## Screenshots
+
+---
+
+1  |  2 
+:-------------------------:|:-------------------------:
