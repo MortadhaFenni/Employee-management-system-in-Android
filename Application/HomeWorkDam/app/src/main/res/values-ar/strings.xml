@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">واجب منزلي</string>
+    <string name="dialogyes">نعم</string>
+    <string name="dialogno">لا</string>
+    <string name="dialogmsg">"هل تريد حقا حذف هذا الموظف ? "</string>
+    <string name="tab_text_1">اتصال</string>
+    <string name="tab_text_2">حول</string>
+    <string name="tab_text_3">المهنة</string>
+    <string name="contact_information">معلومات الاتصال</string>
+    <string name="adresse_mail">عنوان البريد</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="birthday">يوم الميلاد</string>
+    <string name="sexe">جنس</string>
+    <string name="adress">عنوان السكن</string>
+    <string name="nationality">الجنسية</string>
+    <string name="job">المهنة</string>
+    <string name="salary">"راتب "</string>
+    <string name="jobform">المهنة :</string>
+    <string name="salaryform">راتب :</string>
+    <string name="birth_day">"تاريخ الميلاد : "</string>
+    <string name="sexeform">الجنس</string>
+    <string name="form">عنوان اقامة :</string>
+    <string name="nationalityform">الجنسية</string>
+    <string name="phone_numberform">رقم الهاتف :</string>
+    <string name="emailform">عنوان البريد :</string>
+    <string name="call">إتصل</string>
+    <string name="sms">رسالة قصيرة</string>
+    <string name="mail">ايميل</string>
+    <string name="info_msg">حدد صورة شخصية ثم أضغط كلمة \n Crop \n من نافذة تعديل اقتصاص الصورة \n اكمل تعبأة البيانات بشكل صحيح ثم إضغط زر إرسال</string>
+    <string name="send">إرسال</string>
+    <string name="name">إسم</string>
+    <string name="family_name">اللقب</string>
+    <string name="numero">رقم الهاتف</string>
+    <string name="empty">فارغة !</string>
+</resources>

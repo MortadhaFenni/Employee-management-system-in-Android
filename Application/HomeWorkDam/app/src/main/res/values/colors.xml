@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bleu">#0000FF</color>
+    <color name="vert">#00FF00</color>
+    <color name="rouge">#FF0000</color>
+
+
+    <color name="bares">#1b2936</color>
+    <color name="rowa">#3b4e5f</color>
+    <color name="rowb">#314455</color>
+    <color name="forinfo">#3a5065</color>
+</resources>

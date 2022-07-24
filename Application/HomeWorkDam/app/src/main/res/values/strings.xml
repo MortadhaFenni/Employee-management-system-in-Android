@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HomeWork Dam</string>
+    <string name="dialogyes">Yes</string>
+    <string name="dialogno">No</string>
+    <string name="dialogmsg">Do you want to delete this employee ?</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">CONTACT</string>
+    <string name="tab_text_2">ABOUT</string>
+    <string name="tab_text_3">WORK</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="adresse_mail">Adresse Mail</string>
+    <string name="birthday">Birthday</string>
+    <string name="sexe">Sexe</string>
+    <string name="adress">Adress</string>
+    <string name="nationality">Nationality</string>
+    <string name="job">Job</string>
+    <string name="salary">Salary</string>
+    <string name="jobform">Job :</string>
+    <string name="salaryform">Salary :</string>
+    <string name="birth_day">Birth Day :</string>
+    <string name="sexeform">Sexe :</string>
+    <string name="form">Adress :</string>
+    <string name="nationalityform">Nationality :</string>
+    <string name="phone_numberform">Phone Number :</string>
+    <string name="emailform">Email :</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="mail">Mail</string>
+    <string name="info_msg">Select a personal photo, then press the word \n Crop \n from the Edit Crop Image window \nFill in the data correctly, then press the Send button</string>
+    <string name="send">Send</string>
+    <string name="name">Name</string>
+    <string name="family_name">Family Name</string>
+    <string name="numero">NUMERO</string>
+    <string name="empty">Empty !</string>
+</resources>

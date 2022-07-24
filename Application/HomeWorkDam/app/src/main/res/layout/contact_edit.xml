@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center_horizontal|center_vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_numberform"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginLeft="8dp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:foreground="@drawable/custom_input"
+            android:hint="@string/phone_number"
+            android:inputType="phone" />
+        <CheckBox
+            android:id="@+id/chk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailform"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:layout_marginLeft="8dp"
+        android:textColor="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:foreground="@drawable/custom_input"
+            android:hint="@string/adresse_mail"
+            android:inputType="textWebEmailAddress" />
+        <CheckBox
+            android:id="@+id/chk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

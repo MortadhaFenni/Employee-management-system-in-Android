@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    tools:context=".AddEmployee"
+    android:textAlignment="gravity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top|center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/info_msg"
+                    android:textColor="#6e6e6e"
+                    android:textSize="14sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imageView_avatar"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/icon_user"
+                    app:civ_border_color="#e7e2df"
+                    app:civ_border_width="2dp" />
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/ETXT_UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="1"
+                    android:hint="EmployeeName"
+                    android:drawableStart="@drawable/profile_pic"
+                    android:drawablePadding="12dp"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:inputType="textPersonName"
+                    android:layout_gravity="right"
+                    android:maxLength="20"
+                    android:textColor="#000"
+                    android:textColorHint="#7e7e7e" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Family Name"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/ETXT_UserfName"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:inputType="textPersonName"
+                    android:hint="@string/family_name"
+                    android:drawableStart="@drawable/profile_pic"
+                    android:drawablePadding="12dp"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Designation"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/ETXT_UserDesi"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:hint="Job designation"
+                    android:drawableStart="@drawable/custom_work_icon"
+                    android:drawablePadding="12dp"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salary"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/ETXT_Salar"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="2"
+                    android:hint="@string/salary"
+                    android:layout_gravity="right"
+                    android:inputType="number"
+                    android:maxLength="100"
+                    android:textColor="#000"
+                    android:textColorHint="#7e7e7e"
+                    android:drawableStart="@drawable/custom_email_icon"
+                    android:drawablePadding="12dp"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/numero"
+                    android:gravity="center_horizontal"/>
+                <EditText
+                    android:id="@+id/ETXT_Num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="3"
+                    android:hint="Numero"
+                    android:inputType="phone"
+                    android:maxLength="50"
+                    android:textColor="#000"
+                    android:layout_gravity="right"
+                    android:textColorHint="#7e7e7e"
+                    android:drawableStart="@drawable/custom_phone_icon"
+                    android:drawablePadding="12dp"
+                    android:background="@drawable/custom_input"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Ly_Reg_BPUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="top|center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_Reg"
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0"
+                android:background="#d1943a"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/send"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:background="@drawable/backfrag">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/contact_information"
+                android:gravity="left|center_vertical"
+                android:paddingStart="35dp"
+                android:textSize="25sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/frag1_btnedit"
+                android:layout_marginLeft="32dp"
+                android:layout_weight="1"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right|center"
+                android:gravity="right"
+                android:text=""
+                android:foreground="@drawable/edit"
+                android:background="@color/rowb"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/forinfo">
+
+            <ImageView
+                android:id="@+id/imgfrag1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_phone_white" />
+
+            <TextView
+                android:id="@+id/phh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="59dp"
+                android:text="@string/phone_number"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/frag1_num"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="106dp"
+                android:text="0555555555"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/img2frag1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="188dp"
+                android:src="@drawable/ic_email_white"
+                android:layout_alignLeft="@id/imgfrag1"/>
+
+            <TextView
+                android:id="@+id/mch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="185dp"
+                android:layout_toRightOf="@id/img2frag1"
+                android:text="@string/adresse_mail"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:layout_alignLeft="@id/phh"/>
+
+            <TextView
+                android:id="@+id/frag1_email"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="103dp"
+                android:layout_marginTop="232dp"
+                android:layout_marginEnd="18dp"
+                android:text="haha@gmail.com"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
