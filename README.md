@@ -13,4 +13,4 @@ this repo present a multi-language mobile application which consists in managing
 
 1  |  2 
 :-------------------------:|:-------------------------:
-![1](https://github.com/MortadhaFenni/Employee-management-system-in-Android/Pictures/1.jpg) | ![2](https://github.com/MortadhaFenni/Employee-management-system-in-Android/Pictures/2.jpg)
+![1](Pictures/1.jpg) | ![2](Pictures/2.jpg)
